@@ -1,0 +1,70 @@
+Deta
+A.
+Algoritma Program OperasiBilanganAbs
+{OperasiBilanganAbs adalah Abstract Class}
+Procedure OperasibilanganAbs (input: a,b,c  : double)
+	Algortima:
+		{constructor}
+Var:
+	A,b,c,  : double
+Deskripsi
+	OperasiBilanganAbs(a,b,c) {constructor}
+	Setter {berisi procedure/method untuk set data}
+	Getter {berisi function/ method untuk get data}
+	Tampil() {method abstact tampil data}	
+	
+
+1.Operasi Penjumlahan
+Algoritma Program OperasiPenjumlahan
+{OperasiPenjumlahan merupakan kelas turunan dari abstrak Operasibilangan Abs}
+Var:
+A,b,c: double
+Deskripsi :
+	Setter {berisi procedure/method untuk set data untuk melakukan penjumlahan}
+	Getter {berisi function/ method untuk get data untuk melakukan penjumlahan}	
+	Tampil() {method abstact tampil data}	
+
+
+
+2.Operasi Pengurangan
+Algoritma Program OperasiPengurangan
+{OperasiPengurangan merupakan kelas turunan dari abstrak Operasibilangan Abs}
+Var:
+A,b,c: double
+Deskripsi :
+	Setter {berisi procedure/method untuk set data untuk melakukan pengurangan}
+	Getter {berisi function/ method untuk get data untuk melakukan pengurangan}	
+	Tampil() {method abstact tampil data}	
+
+3.Operasi Perkalian
+Algoritma Program OperasiPerkalian
+{OperasiPerkalian merupakan kelas turunan dari abstrak Operasibilangan Abs}
+Var:
+A,b,c: double
+Deskripsi :
+	Setter {berisi procedure/method untuk set data untuk melakukan perkalian}
+	Getter {berisi function/ method untuk get data untuk melakukan perkalian}	
+	Tampil() {method abstact tampil data}
+	
+
+4.Operasi Pembagian
+Algoritma Program OperasiPembagian
+{OperasiPembagian merupakan kelas turunan dari abstrak Operasibilangan Abs}
+Var:
+A,b,c: double
+Deskripsi :
+	Setter {berisi procedure/method untuk set data untuk melakukan pembagian}
+	Getter {berisi function/ method untuk get data untuk melakukan pembagian}	
+	Tampil() {method abstact tampil data}	
+
+
+5.Operasi cetak data
+Algoritma Program OperasiCetakSemua
+{OperasiCetakSemua merupakan kelas turunan dari abstrak Operasibilangan Abs}
+Var:
+A,b,c: double
+Deskripsi :
+	Procedure Setter {berisi procedure/method untuk set data untuk melakukan pembagian}
+	Function Getter {berisi function/ method untuk get data untuk melakukan pembagian}	
+	Procedure CetakSemua() {method Untuk cetak semua data dari kelas abstract}	
+	
